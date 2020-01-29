@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
+.project {
+    box-shadow: black;
+}
+
+.project img {
+    width: 20em;
+    height: 20em;
+}
+
+a {
+    color: #464646;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}

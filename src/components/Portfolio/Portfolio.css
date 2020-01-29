@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
+.portfolio {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 11em 0 10em;
+    /* background-image: url('./paint2.png');
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: cover; */
+}
+
+.portfolio .heading {
+    font-size: 3em;
+    color: #2a2a2a;
+    padding-bottom: 30px;
+    letter-spacing: .1em;
+    text-align: left;
+    font-family: 'Yeseva One', cursive;
+}
+
+.portfolio .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    font-family: 'Playfair Display', serif;
+}
+
+.portfolio img {
+    box-shadow: black;
+}
+
+.other {
+    font-family: 'Yeseva One', cursive;
+    padding: 70px 0px 20px 0px;
+}
+
+.repo-btn {
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+a.bttn {
+    color: #464646;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+a.bttn:hover {
+    box-shadow: 0 10px 0 0 rgba(0, 0, 0, 0.19);
+}
+
+.bttn {
+    font-size: 1em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    width: 15em;
+    font-weight: bold;
+    padding: 14px 0px;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}

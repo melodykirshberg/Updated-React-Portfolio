@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
+.contact {
+    position: relative;
+    padding: 6em 5em 12em 10em;
+}
+
+.contact-heading {
+    font-size: 3em;
+    padding-bottom: 20px;
+    color: #2a2a2a;
+    text-align: left;
+    letter-spacing: .1em;
+    font-family: 'Yeseva One', cursive;
+}
+
+.contact-content {
+    font-size: 3em;
+    vertical-align: middle;
+}
+
+.contact-text {
+    font-family: 'Playfair Display', serif;
+    padding: 70px 0px 20px 0px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.email {
+    padding: 30px;
+    color: #464646;
+}
+
+.github {
+    padding: 30px;
+    color: #464646;
+}
+
+.linkedin {
+    padding: 30px;
+    color: #464646;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
+.about {
+    display: flex;
+    /* background-image: url('./paint1.png');
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: cover; */
+    flex-direction: row;
+    padding: 10em 5em 10em 12em;
+}
+
+.aboutText {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    width: 42%;
+}
+
+.aboutText h1 {
+    font-size: 3em;
+    padding-bottom: 20px;
+    color: #2a2a2a;
+    text-align: left;
+    letter-spacing: .1em;
+    font-family: 'Yeseva One', cursive;
+}
+
+.aboutText p {
+    font-size: 1em;
+    text-align: right;
+}
+
+.about img {
+    margin-left: 16em;
+    height: 100%;
+    width: 30%;
+}
