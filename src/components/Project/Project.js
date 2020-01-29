@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import './Project.css';
-import Fade from 'react-reveal/Fade';
 
 class Project extends Component {
     state = {}
     render() {
         return (
-            <Fade bottom>
                 <div className='project'>
                     <a href={this.props.url}>
                         <img src={this.props.img} alt={this.props.title}></img>
@@ -16,7 +14,6 @@ class Project extends Component {
                     <p>{this.props.text}</p>
                     <a href={this.props.link}>Live link</a>
                 </div>
-            </Fade>
         )
     }
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Project from '../Project/Project.js';
 import Data from './Data.js';
 import './Portfolio.css'
-import Fade from 'react-reveal/Fade';
 
 class Portfolio extends Component {
     state = {}
@@ -10,7 +9,7 @@ class Portfolio extends Component {
         return (
             <div className='portfolio'>
                 <h1 className="heading">
-                    <Fade bottom cascade>PORTFOLIO</Fade>
+                PORTFOLIO
                 </h1>
                 <div className="portfolio-content">
                     {Data.projects.map((project) => (
@@ -24,9 +23,7 @@ class Portfolio extends Component {
                     ))}
                 </div>
                 <h1 className='other'>
-                    <Fade bottom cascade>
                         Interested in my other work?
-                        </Fade>
                 </h1>
                 <div className='repo-btn'>
                     <a href="https://www.github.com/verlitas?tab=repositories" className="bttn">
