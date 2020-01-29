@@ -1,7 +1,6 @@
 {
   "name": "effective-lamp",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -11,9 +10,7 @@
     "react-dev-utils": "^10.0.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
-    "react-reveal": "^1.2.2",
     "react-scripts": "3.3.0",
-    "react-scroll": "^1.7.16"
   },
   "scripts": {
     "start": "react-scripts start",
