@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer.js';
 function App() {
   return (
     <div className='App'>
+      <Nav />
       <About />
       <Portfolio />
       <Contact />
