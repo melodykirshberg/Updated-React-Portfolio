@@ -10,7 +10,7 @@
 This is my first ever portfolio implementing React.js. 
 
 ## Deployed Link
-Click [here](https://nameless-atoll-94518.herokuapp.com/).
+Click [here](https://verlitas.herokuapp.com/).
 
 ## Technologies-Libraries
 Node - Express - JavaScript - Bootstrap - CSS - HTML - React.js 
