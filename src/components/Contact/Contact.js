@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 import './Contact.css';
-import './Resume.pdf';
+import Pdf from './Resume.pdf';
 import Fade from 'react-reveal/Fade';
 
 class Contact extends Component {
@@ -20,7 +20,7 @@ class Contact extends Component {
                         <a href='mailto: melodykirshberg@gmail.com'><FaEnvelope /></a>
                         <a href='https://www.github.com/verlitas'><FaGithub /></a>
                         <a href='https://www.linkedin.com/in/verlitas/'><FaLinkedinIn /></a>
-                        <a href='Resume.pdf'><FaFileAlt /></a>
+                        <a href={Pdf}><FaFileAlt /></a>
                     </div>
                 </Fade>
             </div>
