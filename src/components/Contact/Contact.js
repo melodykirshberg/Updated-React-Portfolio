@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 import './Contact.css';
+import './Resume.pdf';
 import Fade from 'react-reveal/Fade';
 
 class Contact extends Component {
@@ -16,9 +17,10 @@ class Contact extends Component {
                 <Fade bottom>
                     <div className='contact-content'>
                         <p className='contact-text'>Feel free to reach out to me!</p>
-                        <a href='mailto: melodykirshberg@gmail.com' className='email'><FaEnvelope /></a>
-                        <a href='https://www.github.com/verlitas' className='github'><FaGithub /></a>
-                        <a href='https://www.linkedin.com/in/verlitas/' className='linkedin'><FaLinkedinIn /></a>
+                        <a href='mailto: melodykirshberg@gmail.com'><FaEnvelope /></a>
+                        <a href='https://www.github.com/verlitas'><FaGithub /></a>
+                        <a href='https://www.linkedin.com/in/verlitas/'><FaLinkedinIn /></a>
+                        <a href='Resume.pdf'><FaFileAlt /></a>
                     </div>
                 </Fade>
             </div>

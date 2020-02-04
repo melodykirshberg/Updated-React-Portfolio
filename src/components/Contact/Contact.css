@@ -25,17 +25,7 @@
     font-size: 25px;
 }
 
-.email {
-    padding: 30px;
-    color: #464646;
-}
-
-.github {
-    padding: 30px;
-    color: #464646;
-}
-
-.linkedin {
+a {
     padding: 30px;
     color: #464646;
 }
