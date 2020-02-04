@@ -12,6 +12,8 @@
 /build
 
 # misc
+/src/components/Contact/Resume.pdf
+/src/components/About/Self.jpg
 .DS_Store
 .env.local
 .env.development.local
