@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
+
+.landingText {
+    position: center;
+    flex-direction: row;
+    font-family: 'Yeseva One', cursive;
+    font-size: 4em;
+    padding-bottom: 7em;
+    padding-top: 4em;
+}
+
+.minorText {
+    font-size: 30%;
+    font-family: 'Playfair Display', serif;
+    color: gray;
+}

@@ -17,7 +17,9 @@ class About extends Component {
                         <p>{Data.bio}</p>
                     </Fade>
                 </div>
-                <img src={Data.image} alt='Portfolio'></img>
+                <Fade bottom>
+                    <img src={Data.image} alt='Portfolio'></img>
+                </Fade>
             </div>);
     }
 }

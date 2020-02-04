@@ -12,7 +12,7 @@
 .aboutText {
     position: relative;
     font-family: 'Playfair Display', serif;
-    width: 42%;
+    width: 48%;
 }
 
 .aboutText h1 {
@@ -30,7 +30,7 @@
 }
 
 .about img {
-    margin-left: 16em;
+    margin-left: 6em;
     height: 100%;
     width: 30%;
 }

@@ -11,6 +11,11 @@ class Main extends Component {
                     <Fade bottom cascade>
                         Melody Kirshberg
                     </Fade>
+                    <div className='minorText'>
+                        <Fade bottom cascade>
+                            Front-end / Full stack Web Developer
+                        </Fade>
+                    </div>
                 </div>
             </div>
         )
