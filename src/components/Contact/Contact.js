@@ -17,10 +17,10 @@ class Contact extends Component {
                 <Fade bottom>
                     <div className='contact-content'>
                         <p className='contact-text'>Feel free to reach out to me!</p>
-                        <a href='mailto: melodykirshberg@gmail.com'><FaEnvelope /></a>
-                        <a href='https://www.github.com/verlitas'><FaGithub /></a>
-                        <a href='https://www.linkedin.com/in/verlitas/'><FaLinkedinIn /></a>
-                        <a href={Pdf}><FaFileAlt /></a>
+                        <a title='Email' href='mailto: melodykirshberg@gmail.com'><FaEnvelope /></a>
+                        <a title='GitHub' href='https://www.github.com/verlitas'><FaGithub /></a>
+                        <a title='LinkedIn' href='https://www.linkedin.com/in/verlitas/'><FaLinkedinIn /></a>
+                        <a title='Resume' href={Pdf}><FaFileAlt /></a>
                     </div>
                 </Fade>
             </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
 .contact {
     position: relative;
-    padding: 6em 5em 12em 10em;
+    padding: 0em 10em 17em 10em;
 }
 
 .contact-heading {
@@ -16,11 +16,14 @@
 .contact-content {
     font-size: 3em;
     vertical-align: middle;
+    padding-top: 50px;
+
 }
 
 .contact-text {
     font-family: 'Playfair Display', serif;
-    padding: 70px 0px 20px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     letter-spacing: 1px;
     font-size: 25px;
 }

@@ -6,7 +6,7 @@
     background-position: right;
     background-size: cover; */
     flex-direction: row;
-    padding: 10em 5em 10em 12em;
+    padding: 0em 10em 12em 10em;
 }
 
 .aboutText {
@@ -32,5 +32,5 @@
 .about img {
     margin-left: 6em;
     height: 100%;
-    width: 30%;
+    width: 40%;
 }
