@@ -32,3 +32,9 @@ li .link:hover {
     color: #464646;
     opacity: 10;
 }
+
+@media only screen and (min-device-width: 320px) {
+    ul {
+        display: flex;
+    }
+}
