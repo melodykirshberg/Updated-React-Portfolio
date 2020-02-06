@@ -8,7 +8,6 @@
 .aboutText {
     position: relative;
     font-family: 'Playfair Display', serif;
-    display: inline-block;
 }
 
 .aboutText h1 {
@@ -26,14 +25,15 @@
 
 .aboutText p {
     font-size: 1em;
-    text-align: right;
+    text-align: left;
+    display: inline-block;
 }
 
 .about img {
     float: right;
     height: 100%;
     width: 40%;
-    padding-left: 15px;
+    padding: 0 0 6px 15px;
 }
 
 /* Mobile Devices */
@@ -43,7 +43,13 @@
         padding: 0em 2em 12em 2em;
     }
     .aboutText h1 {
-        font-size: 40px;
+        font-size: 35px;
         display: flex;
+    }
+    .about img {
+        width: 50%;
+    }
+    .aboutText p {
+        display: block;
     }
 }
