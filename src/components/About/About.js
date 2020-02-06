@@ -9,7 +9,7 @@ class About extends Component {
         return (
             <div className='about'>
                 <div className='aboutText'>
-                    <Fade bottom cascade>
+                    <Fade left cascade>
                         <h1>ABOUT</h1>
                     </Fade>
                     <Fade bottom>

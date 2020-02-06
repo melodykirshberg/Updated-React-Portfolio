@@ -8,7 +8,7 @@
 .aboutText {
     position: relative;
     font-family: 'Playfair Display', serif;
-    width: 48%;
+    display: inline-block;
 }
 
 .aboutText h1 {
@@ -18,6 +18,10 @@
     text-align: left;
     letter-spacing: .1em;
     font-family: 'Yeseva One', cursive;
+}
+
+.aboutText h3 {
+    text-align: left;
 }
 
 .aboutText p {
