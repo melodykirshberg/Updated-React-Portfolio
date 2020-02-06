@@ -10,7 +10,7 @@ class Contact extends Component {
         return (
             <div className='contact'>
                 <h1 className='contact-heading'>
-                    <Fade bottom cascade>
+                    <Fade left cascade>
                         CONTACT
                     </Fade>
                 </h1>
