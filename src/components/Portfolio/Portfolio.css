@@ -70,6 +70,10 @@ a.bttn:hover {
     .portfolio {
         padding: 0em 2em 12em 2em;
     }
+    .portfolio .heading {
+        font-size: 35px;
+        display: flex;
+    }
     .project img {
         width: 10em;
         height: 10em;
