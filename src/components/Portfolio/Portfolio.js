@@ -10,7 +10,7 @@ class Portfolio extends Component {
         return (
             <div className='portfolio'>
                 <h1 className="heading">
-                    <Fade bottom cascade>
+                    <Fade left cascade>
                         PORTFOLIO
                 </Fade>
                 </h1>
@@ -26,7 +26,7 @@ class Portfolio extends Component {
                     ))}
                 </div>
                 <h1 className='other'>
-                    <Fade bottom cascade>
+                    <Fade top cascade>
                         Interested in my other work?
                 </Fade>
                 </h1>

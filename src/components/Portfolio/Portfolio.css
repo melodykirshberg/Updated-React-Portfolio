@@ -81,4 +81,7 @@ a.bttn:hover {
     .portfolio .portfolio-content {
         grid-template-columns: none;
     }
+    .other {
+        font-size: 25px;
+    }
 }
