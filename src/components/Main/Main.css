@@ -4,7 +4,7 @@
     flex-direction: row;
     font-family: 'Yeseva One', cursive;
     font-size: 4em;
-    padding: 9em 0em 9em 0em;
+    padding: 5em 0em 9em 0em;
 }
 
 .minorText {
@@ -18,5 +18,6 @@
 @media only screen and (max-width: 768px) {
     .landingText {
         font-size: 40px;
+        padding: 9em 0em 9em 0em;
     }
 }
