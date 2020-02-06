@@ -29,7 +29,7 @@ export default
                 role: 'Code and Icons',
                 text: 'A burger logger with MySQL, Node, Express, Handlebars, and Sequelized',
                 url: 'https://github.com/verlitas/Burger-Sequelized',
-                link: 'https://whispering-stream-98011.herokuapp.com/'
+                link: 'https://verlitas-burgersequel.herokuapp.com/'
             }
         ]
     }
