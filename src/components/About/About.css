@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
 .about {
-    display: flex;
-    /* background-image: url('./paint1.png');
-    background-repeat:no-repeat;
-    background-position: right;
-    background-size: cover; */
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     padding: 0em 10em 12em 10em;
 }
 
@@ -30,7 +26,20 @@
 }
 
 .about img {
-    margin-left: 6em;
+    float: right;
     height: 100%;
     width: 40%;
+    padding-left: 15px;
+}
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+    .about {
+        padding: 0em 2em 12em 2em;
+    }
+    .aboutText h1 {
+        font-size: 40px;
+        display: flex;
+    }
 }

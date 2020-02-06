@@ -14,12 +14,12 @@ class About extends Component {
                     </Fade>
                     <Fade bottom>
                         <h3>{Data.header}</h3>
+                        <Fade bottom>
+                            <img src={Data.image} alt='Self'></img>
+                        </Fade>
                         <p>{Data.bio}</p>
                     </Fade>
                 </div>
-                <Fade bottom>
-                    <img src={Data.image} alt='Portfolio'></img>
-                </Fade>
             </div>);
     }
 }

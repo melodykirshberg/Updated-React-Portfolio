@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
-
 .landingText {
     position: center;
     flex-direction: row;
@@ -15,8 +14,9 @@
 }
 
 /* Mobile Devices */
-@media only screen and (min-device-width: 320px) {
-   .landingText {
-    font-size: 40px;
-   }
-  }
+
+@media only screen and (max-width: 768px) {
+    .landingText {
+        font-size: 40px;
+    }
+}
