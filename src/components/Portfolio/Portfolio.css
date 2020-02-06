@@ -82,6 +82,9 @@ a.bttn:hover {
         grid-template-columns: none;
     }
     .other {
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .bttn {
+        font-size: 15px;
     }
 }
