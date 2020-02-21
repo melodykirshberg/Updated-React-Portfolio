@@ -11,7 +11,7 @@ export default
                 title: 'WebSpace',
                 role: 'AWS Authentication and Logo',
                 text: 'WebSpace is a meet-up style app that gives users an opportunity to view fast and pertinent information about other individuals attending the gathering',
-                url: 'https://rocky-atoll-63520.herokuapp.com/'
+                url: 'https://thewebspace.herokuapp.com/'
             },
             {
                 id: 2,
